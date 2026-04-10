@@ -167,10 +167,15 @@
         <div class="container form-grid">
             <div></div>
 
-            <form class="form-box">
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <button type="submit">CADASTRE-SE PARA RECEBER NOSSO MATERIAL</button>
+            <form class="form-box" method="POST" action="/submit-form.php">
+                <input type="hidden" name="tipo" value="lead">
+
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+
+                <button type="submit">
+                    CADASTRE-SE PARA RECEBER NOSSO MATERIAL
+                </button>
             </form>
         </div>
     </section>
