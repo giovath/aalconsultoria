@@ -38,14 +38,14 @@ Mensagem: $mensagem
 
 $destinatarios = "agnaldo.alves@grupoaal.com.br, contato@grupoaal.com.br";
 
-$headers = "From: site@seudominio.com\r\n";
+$headers = "From: noreply@grupoaal.com.br\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
 mail($destinatarios, $assunto, $conteudo, $headers);
 
 // 📧 EMAIL AUTOMÁTICO
-$headersAuto = "From: site@seudominio.com\r\n";
+$headersAuto = "From: noreply@grupoaal.com.br\r\n";
 $headersAuto .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
 mail(

@@ -56,7 +56,9 @@
                                         download estão lá.</p>
                         </div>
 
-                        <form class="form-download" method="POST" action="/submit-form.php">
+                        <form class="form-download" name="download" method="POST" data-netlify="true">
+
+                                <input type="hidden" name="form-name" value="download">
                                 <input type="hidden" name="tipo" value="download">
 
                                 <div class="form-group">

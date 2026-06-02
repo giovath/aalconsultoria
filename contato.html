@@ -45,7 +45,9 @@
             <div class="contato-formulario">
                 <h1>Contato</h1>
 
-                <form class="form-contato" method="POST" action="/submit-form.php">
+                <form class="form-contato" name="contato" method="POST" data-netlify="true">
+
+                    <input type="hidden" name="form-name" value="contato">
                     <input type="hidden" name="tipo" value="contato">
 
                     <div class="form-group">
