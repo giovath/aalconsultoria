@@ -29,7 +29,7 @@ exports.handler = async (event) => {
 
                     updateEnabled: true,
 
-                    listIds: [7],
+                    listIds: [8],
 
                     attributes: {
 
